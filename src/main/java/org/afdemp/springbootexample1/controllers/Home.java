@@ -6,6 +6,7 @@
 package org.afdemp.springbootexample1.controllers;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -17,7 +18,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class Home {
     
     @RequestMapping("/")
-    public String Home() {
+    public String Home(ModelMap view) {
+        view.addAttribute("greeting", new String("Hello George"));
         return "welcome";
     }
     
