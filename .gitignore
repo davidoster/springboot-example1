@@ -40,3 +40,4 @@ src/test/.DS_Store
 src/test/java/.DS_Store
 src/test/java/org/.DS_Store
 src/test/java/org/afdemp/.DS_Store
+nbactions.xml
