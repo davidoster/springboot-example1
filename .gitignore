@@ -29,3 +29,14 @@ build/
 
 ### VS Code ###
 .vscode/
+.DS_Store
+src/.DS_Store
+src/main/.DS_Store
+src/main/java/.DS_Store
+src/main/java/org/.DS_Store
+src/main/java/org/afdemp/.DS_Store
+src/main/resources/.DS_Store
+src/test/.DS_Store
+src/test/java/.DS_Store
+src/test/java/org/.DS_Store
+src/test/java/org/afdemp/.DS_Store
